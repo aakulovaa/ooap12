@@ -5,7 +5,7 @@ package org.strategy;
  * со свойством <b>parse</b>
  */
 public class Parser {
-    private Parse parse;
+    private final Parse parse;
 
     /**
      * Конструктор для установки значения parse
@@ -18,7 +18,7 @@ public class Parser {
     /**
      * Метод считывания из файла по определенному условию
      */
-    public void parsing(){
-        parse.parse();
+    public void parsing(String line){
+        parse.parse(line);
     }
 }

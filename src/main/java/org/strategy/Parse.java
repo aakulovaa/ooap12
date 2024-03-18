@@ -1,5 +1,5 @@
 package org.strategy;
 
 public interface Parse {
-    public void parse();
+    public void parse(String line);
 }

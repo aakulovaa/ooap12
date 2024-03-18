@@ -10,6 +10,6 @@ public class App
         String line = scanner.nextLine();
         System.out.println(line);
         Parser parser = new Parser(new ParseOnlyLetters());
-        parser.parsing();
+        parser.parsing(line);
     }
 }
