@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d6087df-0b6f-4e84-bab9-7a6ff103352c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/strategy/Parse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/strategy/ParseOnlyLetters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/strategy/ParseOnlyNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/strategy/Parser.java" afterDir="false" />
+    <list default="true" id="1d6087df-0b6f-4e84-bab9-7a6ff103352c" name="Changes" comment="Метод стратегия&#10;&#10;определение представления того, как это должно быть">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/strategy/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/strategy/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/strategy/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/strategy/AppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,9 +28,9 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2drzxmlDm52o4bF1biboevPjTXz" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -46,6 +39,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.App.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -63,6 +57,19 @@
       <option name="presentableId" value="Default" />
       <updated>1710781233807</updated>
     </task>
+    <task id="LOCAL-00001" summary="Метод стратегия&#10;&#10;определение представления того, как это должно быть">
+      <option name="closed" value="true" />
+      <created>1710785517868</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710785517869</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Метод стратегия&#10;&#10;определение представления того, как это должно быть" />
+    <option name="LAST_COMMIT_MESSAGE" value="Метод стратегия&#10;&#10;определение представления того, как это должно быть" />
   </component>
 </project>

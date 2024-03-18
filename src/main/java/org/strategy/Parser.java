@@ -1,7 +1,7 @@
 package org.strategy;
 
 public class Parser {
-    Parse parse;
+    private Parse parse;
 
     public Parser(Parse parse) {
         this.parse = parse;
