@@ -1,9 +1,5 @@
-package org.example;
+package org.strategy;
 
-/**
- * Hello world!
- *
- */
 public class App 
 {
     public static void main( String[] args )
