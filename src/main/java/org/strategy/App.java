@@ -6,9 +6,6 @@ public class App
 {
     public static void main( String[] args ) throws FileNotFoundException {
         File file = new File("src/main/textFile.txt");
-        Scanner scanner = new Scanner(file);
-        //TODO: reading not only one line
-        String line = scanner.nextLine();
         Scanner choiceAction = new Scanner(System.in);
         boolean flagExit = true;
         int choice;
@@ -18,16 +15,28 @@ public class App
             choice = choiceAction.nextInt();
             switch (choice) {
                 case (1):
-                    Parser parserNumbers = new Parser(new ParseOnlyNumbers());
-                    parserNumbers.parsing(line);
+                    Scanner scannerForNumbers = new Scanner(file);
+                    while (scannerForNumbers.hasNextLine()) {
+                        String line = scannerForNumbers.nextLine();
+                        Parser parserNumbers = new Parser(new ParseOnlyNumbers());
+                        parserNumbers.parsing(line);
+                    }
                     break;
                 case (2):
-                    Parser parserLetters = new Parser(new ParseOnlyLetters());
-                    parserLetters.parsing(line);
+                    Scanner scannerForLetters = new Scanner(file);
+                    while (scannerForLetters.hasNextLine()) {
+                        String line = scannerForLetters.nextLine();
+                        Parser parserLetters = new Parser(new ParseOnlyLetters());
+                        parserLetters.parsing(line);
+                    }
                     break;
                 case (3):
-                    Parser parserNumberLetter = new Parser(new ParseOnlyNumbersAndLetters());
-                    parserNumberLetter.parsing(line);
+                    Scanner scannerForNumbersAndLetters = new Scanner(file);
+                    while (scannerForNumbersAndLetters.hasNextLine()) {
+                        String line = scannerForNumbersAndLetters.nextLine();
+                        Parser parserNumberLetter = new Parser(new ParseOnlyNumbersAndLetters());
+                        parserNumberLetter.parsing(line);
+                    }
                     break;
                 case (4):
                     flagExit = false;
