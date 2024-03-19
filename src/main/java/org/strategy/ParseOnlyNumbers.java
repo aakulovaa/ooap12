@@ -21,7 +21,7 @@ public class ParseOnlyNumbers extends ShowStrategy implements Parse{
                 " является цифрой - добавляет в массив, иначе - переход к следующему");
     }
 
-    long startTime = System.currentTimeMillis();
+    long startTime = System.nanoTime();
 
     /**
      * Метод для считывания из файла только цифр.
@@ -45,7 +45,7 @@ public class ParseOnlyNumbers extends ShowStrategy implements Parse{
         System.out.println(Arrays.toString(numbers));
 
     }
-    long endTime = System.currentTimeMillis();
+    long endTime = System.nanoTime();
 
     /**
      * Метод выведения в консоль времени выполнения алгоритма
@@ -54,7 +54,6 @@ public class ParseOnlyNumbers extends ShowStrategy implements Parse{
     public void showWorkTime()
     {
         long timeElapsed = endTime - startTime;
-        System.out.println("Время выполнения:" + timeElapsed);
+        System.out.println("Время выполнения:" + timeElapsed + " нс");
     }
-
 }

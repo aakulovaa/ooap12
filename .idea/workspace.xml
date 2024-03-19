@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d6087df-0b6f-4e84-bab9-7a6ff103352c" name="Changes" comment="шаблонный метод&#10;&#10;создание класса, содержащего методы для каждой стратегии">
+    <list default="true" id="1d6087df-0b6f-4e84-bab9-7a6ff103352c" name="Changes" comment="шаблонный метод&#10;&#10;шаблонный метод для стратегии считывания из файла только цифр">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/strategy/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/strategy/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/strategy/ParseOnlyNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/strategy/ParseOnlyNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/strategy/ShowStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/strategy/ShowStrategy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,7 +180,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710854563222</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="шаблонный метод&#10;&#10;шаблонный метод для стратегии считывания из файла только цифр">
+      <option name="closed" value="true" />
+      <created>1710856208257</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1710856208257</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -207,6 +213,7 @@
     <MESSAGE value="Parse&#10;&#10;добавление возможности считывать больше одной строки файла" />
     <MESSAGE value="last commit" />
     <MESSAGE value="шаблонный метод&#10;&#10;создание класса, содержащего методы для каждой стратегии" />
-    <option name="LAST_COMMIT_MESSAGE" value="шаблонный метод&#10;&#10;создание класса, содержащего методы для каждой стратегии" />
+    <MESSAGE value="шаблонный метод&#10;&#10;шаблонный метод для стратегии считывания из файла только цифр" />
+    <option name="LAST_COMMIT_MESSAGE" value="шаблонный метод&#10;&#10;шаблонный метод для стратегии считывания из файла только цифр" />
   </component>
 </project>
