@@ -1,8 +1,6 @@
 package org.strategy;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 
 public class ParseOnlyNumbers implements Parse{
     @Override
