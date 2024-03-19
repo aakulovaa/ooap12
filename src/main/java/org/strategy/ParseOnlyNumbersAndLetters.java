@@ -3,6 +3,7 @@ package org.strategy;
 import java.util.Arrays;
 
 public class ParseOnlyNumbersAndLetters implements Parse{
+
     @Override
     public void parse(String line){
         Character[] numberLettersString = new Character[line.length()];
@@ -20,4 +21,5 @@ public class ParseOnlyNumbersAndLetters implements Parse{
         }
         System.out.println(Arrays.toString(numberLetters));
     }
+
 }
