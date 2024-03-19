@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d6087df-0b6f-4e84-bab9-7a6ff103352c" name="Changes" comment="Parse&#10;&#10;добавление возможности считывать больше одной строки файла">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="1d6087df-0b6f-4e84-bab9-7a6ff103352c" name="Changes" comment="шаблонный метод&#10;&#10;шаблонный метод для стратегии считывания из файла только букв">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/strategy/ParseOnlyNumbersAndLetters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/strategy/ParseOnlyNumbersAndLetters.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +16,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -40,22 +41,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.App.executor&quot;: &quot;Run&quot;,
-    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;first&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.App.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "first",
+    "kotlin-language-version-configured": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main" />
       <recent name="$PROJECT_DIR$/src/main/java" />
       <recent name="$PROJECT_DIR$/src/main/java/org/strategy" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.strategy" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -154,8 +163,51 @@
       <option name="project" value="LOCAL" />
       <updated>1710827972453</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="last commit">
+      <option name="closed" value="true" />
+      <created>1710850709172</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1710850709172</updated>
+    </task>
+    <task id="LOCAL-00012" summary="шаблонный метод&#10;&#10;создание класса, содержащего методы для каждой стратегии">
+      <option name="closed" value="true" />
+      <created>1710854563222</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1710854563222</updated>
+    </task>
+    <task id="LOCAL-00013" summary="шаблонный метод&#10;&#10;шаблонный метод для стратегии считывания из файла только цифр">
+      <option name="closed" value="true" />
+      <created>1710856208257</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1710856208257</updated>
+    </task>
+    <task id="LOCAL-00014" summary="шаблонный метод&#10;&#10;шаблонный метод для стратегии считывания из файла только букв">
+      <option name="closed" value="true" />
+      <created>1710857231075</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1710857231075</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Метод стратегия&#10;&#10;определение представления того, как это должно быть" />
@@ -166,6 +218,10 @@
     <MESSAGE value="интерфейс" />
     <MESSAGE value="Parse&#10;&#10;добавление возможности считывать из файла только цифры и буквы" />
     <MESSAGE value="Parse&#10;&#10;добавление возможности считывать больше одной строки файла" />
-    <option name="LAST_COMMIT_MESSAGE" value="Parse&#10;&#10;добавление возможности считывать больше одной строки файла" />
+    <MESSAGE value="last commit" />
+    <MESSAGE value="шаблонный метод&#10;&#10;создание класса, содержащего методы для каждой стратегии" />
+    <MESSAGE value="шаблонный метод&#10;&#10;шаблонный метод для стратегии считывания из файла только цифр" />
+    <MESSAGE value="шаблонный метод&#10;&#10;шаблонный метод для стратегии считывания из файла только букв" />
+    <option name="LAST_COMMIT_MESSAGE" value="шаблонный метод&#10;&#10;шаблонный метод для стратегии считывания из файла только букв" />
   </component>
 </project>

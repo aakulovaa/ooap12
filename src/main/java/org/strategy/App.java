@@ -20,6 +20,8 @@ public class App
             switch (choice) {
                 case (1):
                     Scanner scannerForNumbers = new Scanner(file);
+                    ShowStrategy numberInfo = new ParseOnlyNumbers();
+                    numberInfo.show();
                     while (scannerForNumbers.hasNextLine()) {
                         String line = scannerForNumbers.nextLine();
                         Parser parserNumbers = new Parser(new ParseOnlyNumbers());
@@ -28,6 +30,8 @@ public class App
                     break;
                 case (2):
                     Scanner scannerForLetters = new Scanner(file);
+                    ShowStrategy letterInfo = new ParseOnlyNumbers();
+                    letterInfo.show();
                     while (scannerForLetters.hasNextLine()) {
                         String line = scannerForLetters.nextLine();
                         Parser parserLetters = new Parser(new ParseOnlyLetters());
@@ -36,6 +40,8 @@ public class App
                     break;
                 case (3):
                     Scanner scannerForNumbersAndLetters = new Scanner(file);
+                    ShowStrategy numberAndLetterInfo = new ParseOnlyNumbers();
+                    numberAndLetterInfo.show();
                     while (scannerForNumbersAndLetters.hasNextLine()) {
                         String line = scannerForNumbersAndLetters.nextLine();
                         Parser parserNumberLetter = new Parser(new ParseOnlyNumbersAndLetters());
