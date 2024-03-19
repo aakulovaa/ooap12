@@ -3,6 +3,10 @@ package org.strategy;
 import java.util.Arrays;
 
 public class ParseOnlyNumbers implements Parse{
+    /**
+     * Метод для считывания из файла только цифр.
+     * @param line - строка файла, передаваемая для вычленения из нее цифр
+     */
     @Override
     public void parse(String line){
         String[] numbersString = new String[line.length()];

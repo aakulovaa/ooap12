@@ -8,9 +8,29 @@ public class App
         File file = new File("src/main/textFile.txt");
         Scanner scanner = new Scanner(file);
         String line = scanner.nextLine();
-        Parser parser = new Parser(new ParseOnlyNumbers());
-        parser.parsing(line);
-        Parser parser2 = new Parser(new ParseOnlyLetters());
-        parser2.parsing(line);
+        Scanner choiceAction = new Scanner(System.in);
+        boolean flagExit = true;
+        int choice;
+        while (flagExit) {
+            System.out.println("Выберите действие: 1-считать только цифры. 2-считать только буквы." +
+                    "3-считать только буквы и цифры. 4 - выход ");
+            choice = choiceAction.nextInt();
+            switch (choice) {
+                case (1):
+                    Parser parserNumbers = new Parser(new ParseOnlyNumbers());
+                    parserNumbers.parsing(line);
+                    break;
+                case (2):
+                    Parser parserLetters = new Parser(new ParseOnlyLetters());
+                    parserLetters.parsing(line);
+                    break;
+                case (3):
+
+                    break;
+                case (4):
+                    flagExit = false;
+                    break;
+            }
+        }
     }
 }

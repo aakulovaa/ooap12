@@ -3,6 +3,10 @@ package org.strategy;
 import java.util.Arrays;
 
 public class ParseOnlyLetters implements Parse {
+    /**
+     * Метод для считывания из файла только букв.
+     * @param line - строка файла, передаваемая для вычленения из нее букв
+     */
     @Override
     public void parse(String line){
         Character[] lettersString = new Character[line.length()];
