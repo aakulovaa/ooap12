@@ -7,6 +7,7 @@ public class App
     public static void main( String[] args ) throws FileNotFoundException {
         File file = new File("src/main/textFile.txt");
         Scanner scanner = new Scanner(file);
+        //TODO: reading not only one line
         String line = scanner.nextLine();
         Scanner choiceAction = new Scanner(System.in);
         boolean flagExit = true;
@@ -25,7 +26,8 @@ public class App
                     parserLetters.parsing(line);
                     break;
                 case (3):
-
+                    Parser parserNumberLetter = new Parser(new ParseOnlyNumbersAndLetters());
+                    parserNumberLetter.parsing(line);
                     break;
                 case (4):
                     flagExit = false;
