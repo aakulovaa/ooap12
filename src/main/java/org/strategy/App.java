@@ -20,6 +20,8 @@ public class App
             switch (choice) {
                 case (1):
                     Scanner scannerForNumbers = new Scanner(file);
+                    ShowStrategy num = new ParseOnlyNumbers();
+                    num.show();
                     while (scannerForNumbers.hasNextLine()) {
                         String line = scannerForNumbers.nextLine();
                         Parser parserNumbers = new Parser(new ParseOnlyNumbers());
