@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d6087df-0b6f-4e84-bab9-7a6ff103352c" name="Changes" comment="шаблонный метод&#10;&#10;шаблонный метод для стратегии считывания из файла только цифр">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/strategy/ParseOnlyNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/strategy/ParseOnlyNumbers.java" afterDir="false" />
+    <list default="true" id="1d6087df-0b6f-4e84-bab9-7a6ff103352c" name="Changes" comment="шаблонный метод&#10;&#10;шаблонный метод для стратегии считывания из файла только букв">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/strategy/ParseOnlyNumbersAndLetters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/strategy/ParseOnlyNumbersAndLetters.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,7 +187,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710856208257</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="шаблонный метод&#10;&#10;шаблонный метод для стратегии считывания из файла только букв">
+      <option name="closed" value="true" />
+      <created>1710857231075</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1710857231075</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -214,6 +221,7 @@
     <MESSAGE value="last commit" />
     <MESSAGE value="шаблонный метод&#10;&#10;создание класса, содержащего методы для каждой стратегии" />
     <MESSAGE value="шаблонный метод&#10;&#10;шаблонный метод для стратегии считывания из файла только цифр" />
-    <option name="LAST_COMMIT_MESSAGE" value="шаблонный метод&#10;&#10;шаблонный метод для стратегии считывания из файла только цифр" />
+    <MESSAGE value="шаблонный метод&#10;&#10;шаблонный метод для стратегии считывания из файла только букв" />
+    <option name="LAST_COMMIT_MESSAGE" value="шаблонный метод&#10;&#10;шаблонный метод для стратегии считывания из файла только букв" />
   </component>
 </project>
