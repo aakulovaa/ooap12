@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d6087df-0b6f-4e84-bab9-7a6ff103352c" name="Changes" comment="Считывание из файла&#10;&#10;Добавление возможности считывать из файла строку">
+    <list default="true" id="1d6087df-0b6f-4e84-bab9-7a6ff103352c" name="Changes" comment="Parse от строки&#10;&#10;Передаем строку для обработки в метод parse">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/strategy/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/strategy/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/strategy/Parse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/strategy/Parse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/strategy/ParseOnlyLetters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/strategy/ParseOnlyLetters.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/strategy/ParseOnlyNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/strategy/ParseOnlyNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/strategy/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/strategy/Parser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/textFile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/textFile.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,12 +110,21 @@
       <option name="project" value="LOCAL" />
       <updated>1710788355487</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Parse от строки&#10;&#10;Передаем строку для обработки в метод parse">
+      <option name="closed" value="true" />
+      <created>1710788729542</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1710788729542</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Метод стратегия&#10;&#10;определение представления того, как это должно быть" />
     <MESSAGE value="Считывание из файла&#10;&#10;Добавление возможности считывать из файла строку" />
-    <option name="LAST_COMMIT_MESSAGE" value="Считывание из файла&#10;&#10;Добавление возможности считывать из файла строку" />
+    <MESSAGE value="Parse от строки&#10;&#10;Передаем строку для обработки в метод parse" />
+    <option name="LAST_COMMIT_MESSAGE" value="Parse от строки&#10;&#10;Передаем строку для обработки в метод parse" />
   </component>
 </project>

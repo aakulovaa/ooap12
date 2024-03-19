@@ -8,8 +8,9 @@ public class App
         File file = new File("src/main/textFile.txt");
         Scanner scanner = new Scanner(file);
         String line = scanner.nextLine();
-        System.out.println(line);
-        Parser parser = new Parser(new ParseOnlyLetters());
+        Parser parser = new Parser(new ParseOnlyNumbers());
         parser.parsing(line);
+        Parser parser2 = new Parser(new ParseOnlyLetters());
+        parser2.parsing(line);
     }
 }
