@@ -25,10 +25,12 @@ public class ParseOnlyLetters extends ShowStrategy implements Parse {
 
     /**
      * Метод для считывания из файла только букв.
+     *
      * @param line - строка файла, передаваемая для вычленения из нее букв
+     * @return
      */
     @Override
-    public void parse(String line){
+    public String parse(String line){
         Character[] lettersString = new Character[line.length()];
         int countLetter = 0;
         for (int symbol=0;symbol<line.length();symbol++){
@@ -43,6 +45,7 @@ public class ParseOnlyLetters extends ShowStrategy implements Parse {
             letters[letter] = lettersString[letter];
         }
         System.out.println(Arrays.toString(letters));
+        return Arrays.toString(letters);
     }
 
     long endTime = System.nanoTime();

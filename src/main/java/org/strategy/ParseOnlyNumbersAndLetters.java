@@ -25,10 +25,12 @@ public class ParseOnlyNumbersAndLetters extends ShowStrategy implements Parse{
 
     /**
      * Метод для считывания из файла только цифр или букв.
+     *
      * @param line - строка, передаваемая для обработки
+     * @return
      */
     @Override
-    public void parse(String line){
+    public String parse(String line){
         Character[] numberLettersString = new Character[line.length()];
         int count = 0;
         for (int symbol=0;symbol<line.length();symbol++){
@@ -43,6 +45,7 @@ public class ParseOnlyNumbersAndLetters extends ShowStrategy implements Parse{
             numberLetters[numberLetter] = numberLettersString[numberLetter];
         }
         System.out.println(Arrays.toString(numberLetters));
+        return Arrays.toString(numberLetters);
     }
 
     long endTime = System.nanoTime();

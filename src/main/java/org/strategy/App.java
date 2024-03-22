@@ -14,7 +14,7 @@ public class App
         boolean flagExit = true;
         int choice;
         while (flagExit) {
-            System.out.println("Выберите действие: 1-считать только цифры. 2-считать только буквы." +
+            System.out.println("Выберите действие: 1-считать только цифры. 2-считать только буквы. " +
                     "3-считать только буквы и цифры. 4 - выход ");
             choice = choiceAction.nextInt();
             switch (choice) {

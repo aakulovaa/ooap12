@@ -25,10 +25,12 @@ public class ParseOnlyNumbers extends ShowStrategy implements Parse{
 
     /**
      * Метод для считывания из файла только цифр.
+     *
      * @param line - строка файла, передаваемая для вычленения из нее цифр
+     * @return
      */
     @Override
-    public void parse(String line){
+    public String parse(String line){
         String[] numbersString = new String[line.length()];
         int countNumber = 0;
         for (int symbol=0;symbol<line.length();symbol++){
@@ -44,6 +46,7 @@ public class ParseOnlyNumbers extends ShowStrategy implements Parse{
         }
         System.out.println(Arrays.toString(numbers));
 
+        return Arrays.toString(numbers);
     }
     long endTime = System.nanoTime();
 

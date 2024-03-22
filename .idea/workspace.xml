@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d6087df-0b6f-4e84-bab9-7a6ff103352c" name="Changes" comment="шаблонный метод&#10;&#10;шаблонный метод для стратегии считывания из файла только букв">
+    <list default="true" id="1d6087df-0b6f-4e84-bab9-7a6ff103352c" name="Changes" comment="шаблонный метод&#10;&#10;шаблонный метод для стратегии считывания из файла только цифр и букв">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/strategy/ParseOnlyLettersTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/strategy/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/strategy/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/strategy/Parse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/strategy/Parse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/strategy/ParseOnlyLetters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/strategy/ParseOnlyLetters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/strategy/ParseOnlyNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/strategy/ParseOnlyNumbers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/strategy/ParseOnlyNumbersAndLetters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/strategy/ParseOnlyNumbersAndLetters.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,15 +22,15 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="first" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -44,13 +50,14 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.App.executor": "Run",
+    "JUnit.ParseOnlyLettersTest.testParse.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "first",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
@@ -66,6 +73,63 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="org.strategy" />
     </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ParseOnlyNumbersAndLettersTest.parse">
+    <configuration name="ParseOnlyLettersTest.testParse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="parser" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.strategy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.strategy" />
+      <option name="MAIN_CLASS_NAME" value="org.strategy.ParseOnlyLettersTest" />
+      <option name="METHOD_NAME" value="testParse" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParseOnlyNumbersAndLettersTest.parse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="parser" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.strategy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.strategy" />
+      <option name="MAIN_CLASS_NAME" value="org.strategy.ParseOnlyNumbersAndLettersTest" />
+      <option name="METHOD_NAME" value="parse" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParseOnlyNumbersTest.testParse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="parser" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.strategy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.strategy" />
+      <option name="MAIN_CLASS_NAME" value="org.strategy.ParseOnlyNumbersTest" />
+      <option name="METHOD_NAME" value="testParse" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ParseOnlyNumbersAndLettersTest.parse" />
+        <item itemvalue="JUnit.ParseOnlyNumbersTest.testParse" />
+        <item itemvalue="JUnit.ParseOnlyLettersTest.testParse" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
